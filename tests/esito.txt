@@ -1,0 +1,14 @@
+Verifica 2026-10-17; nessun hardware collegato o modificato dall'agente.
+T01 PASS validazione e serializzazione
+T02 PASS duplicati, finestra, sessioni e limite cache
+T03 PASS correlazione ACK e riavvii
+T04 PASS timeout, retry e ACK tardivi
+T05 PASS metriche e rollover
+T06 PASS simulazione perdita ACK / allarme
+T07 PASS 2 casi unittest CSV
+B-TX PASS default e configurazione locale temporanea
+B-RX PASS default e configurazione locale temporanea
+H00-H10 NON ESEGUITI
+P201-P403 PIANIFICATI
+Comandi ripetibili: ./tools/test.sh ; python3 tools/check_builds.py
+Log completi ignorati da VCS sotto build/. Dettagli in docs/stato.md.

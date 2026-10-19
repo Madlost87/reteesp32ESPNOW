@@ -1,0 +1,16 @@
+.pio/
+.pio-core/
+.venv/
+__pycache__/
+/build/
+/results/
+/backups/
+**/include/config.local.hpp
+*.bin
+*.elf
+*.map
+
+**/include/network.local.hpp
+
+/secrets/
+**/include/ota.local.hpp
